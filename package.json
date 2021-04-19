@@ -1,20 +1,20 @@
 {
-  "name": "vue3-vt-notifications",
+  "name": "vue3-notifications",
   "description": "A headless vue notification library to use with tailwind",
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
   "author": {
-    "name": "Alexey Kucherenko",
-    "url": "https://github.com/killmenot"
+    "name": "Alexis Riot",
+    "url": "https://github.com/alexis-riot"
   },
-  "homepage": "https://github.com/killmenot/vue3-vt-notifications",
+  "homepage": "https://github.com/alexis-riot/vue3-vt-notifications",
   "repository": {
     "type": "git",
-    "url": "git@github.com:killmenot/vue3-vt-notifications.git"
+    "url": "git@github.com:alexis-riot/vue3-vt-notifications.git"
   },
   "bugs": {
-    "url": "https://github.com/killmenot/vue3-vt-notifications/issues"
+    "url": "https://github.com/alexis-riot/vue3-vt-notifications/issues"
   },
   "scripts": {
     "lint": "vue-cli-service lint",

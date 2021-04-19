@@ -40,13 +40,12 @@ export default {
         'leave-from-class': this.transitionGroupClasses.leaveFromClass,
         'leave-to-class': this.transitionGroupClasses.leaveToClass,
         'move-class': this.transitionGroupClasses.moveClass,
-      },
-      [
-        this.$slots.default({
+      }, {
+        default: () => this.$slots.default({
           notifications: this.sortedNotifications,
           close: this.close,
-        }),
-      ]
+        })
+      }
     );
   },
   data() {
